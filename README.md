@@ -1,2 +1,2 @@
-# mystreaml_repo_rm
+# Iris web app deployed on Heroku
 testing streamlit
