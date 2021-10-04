@@ -11,7 +11,7 @@ This app predicts the **Iris flower** type!
 st.sidebar.header('User Input Parameters')
 
 def user_input_features():
-    sepal_length = st.sidebar.slider('Sepal TEST length', 4.3, 7.9, 5.4)
+    sepal_length = st.sidebar.slider('Sepal length', 4.3, 7.9, 5.4)
     sepal_width = st.sidebar.slider('Sepal width', 2.0, 4.4, 2.4)
     petal_length = st.sidebar.slider('Petal length', 1.0, 6.9, 1.3)
     petal_width = st.sidebar.slider('Petal width', 0.1, 2.5, 0.2)
