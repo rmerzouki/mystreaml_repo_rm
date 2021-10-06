@@ -31,7 +31,7 @@ iris = datasets.load_iris()
 X = iris.data
 Y = iris.target
 
-clf = RandomForestClassifier()
+clf = RandomForestClassifier(random_state=42)
 clf.fit(X, Y)
 
 prediction = clf.predict(df)
